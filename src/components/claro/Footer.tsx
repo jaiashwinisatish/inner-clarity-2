@@ -57,22 +57,22 @@ export function Footer() {
 
           {/* Legal & Security Column */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-xs uppercase tracking-[0.2em] font-semibold text-foreground/80">Security</h4>
+            <h4 className="text-xs uppercase tracking-[0.2em] font-semibold text-foreground/80">Security & Legal</h4>
             <ul className="space-y-3.5 text-sm text-muted-foreground">
               <li>
-                <a href="#privacy" className="transition-colors hover:text-foreground">Privacy Policy</a>
+                <Link to="/privacy-policy" className="transition-colors hover:text-foreground">Privacy Policy</Link>
               </li>
               <li>
-                <a href="#" className="transition-colors hover:text-foreground">Terms of Service</a>
+                <Link to="/terms-of-service" className="transition-colors hover:text-foreground">Terms of Service</Link>
               </li>
               <li>
-                <a href="#" className="transition-colors hover:text-foreground">Contact Support</a>
+                <Link to="/contact-support" className="transition-colors hover:text-foreground">Contact Support</Link>
               </li>
               <li>
-                <a href="#" className="transition-colors hover:text-foreground flex items-center gap-1.5">
+                <Link to="/privacy-policy" hash="security" className="transition-colors hover:text-foreground flex items-center gap-1.5">
                   <Lock className="h-3 w-3 text-accent" />
                   Encryption details
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

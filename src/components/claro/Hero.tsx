@@ -24,7 +24,7 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Claro helps you untangle mental loops through private AI-guided reflection —
+          Claro helps you untangle mental loops through private AI-guided reflection -
           one question at a time. No advice. No judgment.
         </p>
 

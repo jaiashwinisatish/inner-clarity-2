@@ -16,7 +16,6 @@ export function Nav() {
             <a href="#how" className="transition-colors hover:text-foreground">How it works</a>
             <a href="#features" className="transition-colors hover:text-foreground">Features</a>
             <a href="#download" className="transition-colors hover:text-foreground">Download</a>
-            <a href="#privacy" className="transition-colors hover:text-foreground">Privacy</a>
           </div>
           <Link
             to="/session"
